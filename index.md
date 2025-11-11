@@ -2,13 +2,13 @@ Lewis Weng (leweng@ucsd.edu)\
 Aaron Boussina B08
 
 **1. What is the most interesting topic covered in your domain this quarter?**\
-The most interesting topic so far is learning about how LLM performance decreases based on the input given. As input token size increases LLM's struggle to provide an accurate answer. In addition, when distractors are included in the input, LLM's performance also goes down. LLM's are good at lexical search, but perform noticeably worse with semantic search. I find this to be very interesting and want to epxplore this topic more.\
+The most interesting topic so far is learning about how LLM performance decreases based on the input given. As input token size increases LLM's struggle to provide an accurate answer. In addition, when distractors are included in the input, LLM's performance also goes down. LLM's are good at lexical search, but perform noticeably worse with semantic search. I find this to be very interesting and want to epxplore this topic more.
 
 **2. Describe a potential investigation you would like to pursue for your Quarter 2 Project.** \
-I've read a paper on how LLM's perform on text data. For the Quarter 2 Project, I want to investigate how LLM's perform as information extractors on heatlh data. We would prompt the LLM to answer a question about the data, such as "does this patient have an infection", and see whether the LLM answers correctly. If LLM's can perform on health data, it could potentially be used in hospitals to read medical charts for doctors.\
+I've read a paper on how LLM's perform on text data. For the Quarter 2 Project, I want to investigate how LLM's perform as information extractors on heatlh data. We would prompt the LLM to answer a question about the data, such as "does this patient have an infection", and see whether the LLM answers correctly. If LLM's can perform on health data, it could potentially be used in hospitals to read medical charts for doctors.
 
 **3. What is a potential change you’d make to the approach taken in your current Quarter 1 Project?**\
-A potential change could be to test the LLM on a different dataset. Currently, we are planning on testing the LLM on MIMIC-III data. The MIMIC-III data was data collected from 2001 to 2012 and was released in 2015. I think a more up-to-date dataset might be useful in the case of new diseases, or some disease being less prevalent than before.\
+A potential change could be to test the LLM on a different dataset. Currently, we are planning on testing the LLM on MIMIC-III data. The MIMIC-III data was data collected from 2001 to 2012 and was released in 2015. I think a more up-to-date dataset might be useful in the case of new diseases, or some disease being less prevalent than before.
 
 **4. What other techniques would you be interested in using in your project?**\
 I am interested as to how changes in prompt would affect the LM's performance. For instance, we could use zero-shot, one-shot, few-shot prompting to see whether it affects LLM performance on information extraction. Another possible technique is to use retrieval-augmented generation and see whether this improves LLM performance on our data. There's been studies on how RAG affects information extraction, but the study wasn't done on health data. I'm interested as to how this would be applied to health data.
